@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import {sanityClient, urlFor} from '../sanity';
 import {Post} from '../typings';
 import Link from 'next/link';
+import { SERVER_PROPS_ID } from 'next/dist/shared/lib/constants';
 
 
 interface Props {
@@ -12,6 +13,7 @@ interface Props {
 }
 
 export default function Home({ posts }: Props) {
+
     return (
         <div className="max-w-7xl mx-auto">
             <Head>

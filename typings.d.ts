@@ -1,3 +1,5 @@
+// defining a post
+
 export interface Post {
     _id: string;
     _createdAt: string;
